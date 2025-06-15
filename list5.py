@@ -1,0 +1,25 @@
+Cartoons=['tom&jerry','doraemon','shinchan','oggy&cockroaches']
+print(Cartoons)
+print("After Appendix:")
+Cartoons.append('Heidi')
+print(Cartoons)
+#add 3 another elements
+Cartoons.insert(2,'chotabheem')
+print(Cartoons)
+Cartoons.pop()
+print(Cartoons)
+Cartoons.pop(0)
+print(Cartoons)
+Cartoons.remove('oggy&cockroaches')
+print(Cartoons)
+print(Cartoons.index('shinchan'))
+Cartoons.reverse()
+print(Cartoons)
+#with out using reverse
+Num=[11,22,33,44,55,66,77,88,99,100]
+print(Num[0:])
+print(Num[1:4+1])
+print(Num[::1])
+print(Num[::2])
+print(Num[1::2])
+print(Num[::-1]) 
